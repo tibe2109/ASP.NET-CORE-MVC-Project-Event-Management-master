@@ -13,6 +13,7 @@ namespace EventApplicationCore.Controllers
     public class AdminController : Controller
     {
         // GET: /<controller>/
+        // Add ABC form Company
         public IActionResult Dashboard()
         {
             return View();
